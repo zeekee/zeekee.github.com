@@ -1,0 +1,120 @@
+#home-pg{
+    background-color: white;
+    overflow-x: hidden;
+}
+
+.container.main-container{
+    margin: 0;
+    padding: 0;
+}
+
+#default-navbar{
+    background-color: black;
+}
+
+#default-navbar .nav-link,
+#default-navbar .navbar-brand{
+    color: #fff;
+}
+
+#form-search{
+    display: none;
+    padding-right: 20px;
+}
+
+#home-carousel{
+    width: 100vw;
+}
+
+#home-carousel .carousel-item{
+    height: 240px;
+}
+
+#home-carousel .carousel-caption > h5{
+    font-size: 2rem;
+}
+
+#home-carousel .carousel-caption > p{
+    font-size: 1.25rem;
+}
+
+.option-sect{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.option-area{
+    height: inherit;
+    padding: 20px 0;
+}
+
+.option-area .opt{
+    text-align: center;
+    color: #fff;
+    flex-grow: 1;
+    flex-basis: 0;
+    min-width: 300px;
+}
+
+.option-area .opt .opt-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.option-area .opt .opt-title{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.option-area .opt .opt-desc{
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+
+.option-area .opt.mg-top{
+    margin-top: 40px;
+}
+
+.btn-orange{
+    background-color: orange;
+    color: #fff;
+}
+
+.adoptions-sect{
+    background-color: #fff;
+}
+
+.section-title{
+    font-size: 28px;
+    font-weight: 700;
+    color: grey;
+    margin-bottom: 28px;
+    margin-top: 12px;
+}
+
+.monthly-adoptions-area{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.img-container figure > img{
+    max-height: 184px;
+}
+
+.img-container figure > figcaption{
+    font-size: 20px;
+    font-weight: 700;
+    color: orange;
+    text-align: center;
+}
+
+#contact-alert{
+    margin-bottom: 0;
+}
