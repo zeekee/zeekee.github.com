@@ -41,6 +41,7 @@
 .option-sect{
     padding-left: 12px;
     padding-right: 12px;
+    margin-top: 30px;
 }
 
 .option-area{
@@ -70,6 +71,11 @@
 .option-area .opt .opt-desc{
     margin-top: 12px;
     margin-bottom: 0;
+    color: black;
+}
+
+.option-area .opt .badge{
+    color: green;
 }
 
 .option-area .opt.mg-top{
