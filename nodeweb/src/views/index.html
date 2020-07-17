@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <%- include ('partials/head.html') %>
+</head>
+
+<body>
+    <%- include ('partials/navigation.html') %>
+
+    <div class="container">
+        <header class="row">
+            <div class="col-lg-12 text-center">
+                <img src="/img/bob.png" class="img-fluid rounded float-right animate__animated animate__bounceIn" alt="Bob">
+            </div>
+        </header>
+    </div>
+
+    <!-- SECTION ONE -->
+    <div class="container-fluid" id="about">
+        <div class="row bg-dark text-white p-5 text-center">
+            <div class="col-sm-6">
+                <i class="fab fa-youtube fa-10x"></i>
+            </div>
+            <div class="col-sm-5">
+                <h3>The best Youtube channel</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus modi, impedit earum quisquam
+                    possimus ab asperiores atque laudantium iste reiciendis nesciunt reprehenderit molestias,
+                    voluptatum, quam aperiam saepe dolores magnam eos?</p>
+            </div>
+        </div>
+    </div>
+
+    <%- include ('partials/footer.html') %>
+</body>
+
+</html>
