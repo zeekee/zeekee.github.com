@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="jumbotron mt-4">
+        <div class="col-md-4 mx-auto mb-4">
+            <form action="/products/search" method="POST">
+                <div class="form-group">
+                    <input type="text" name="name" class="form-control" placeholder="Nombre del articulo" autofocus>
+                </div>
+                <div class="form-group">
+                    <div class="text-center">
+                        <button class="btn btn-success">
+                            Buscar
+                        </button>
+                        <a href="/products/search-all" class="btn btn-success">
+                            Traer todos
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+        {{> productstable }}
+    </div>
+</div>

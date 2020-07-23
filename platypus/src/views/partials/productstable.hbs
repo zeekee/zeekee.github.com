@@ -1,0 +1,26 @@
+<div class="table-responsive">
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Articulo</th>
+                <th scope="col">Marca</th>
+                <th scope="col">Cantidad</th>
+                <th scope="col">Tipo</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each products}}
+            <tr>
+                <td>{{name}}</td>
+                <td>{{brand}}</td>
+                <td>{{quantity}}</td>
+                <td>{{type}}</td>
+                <td><a href="/products/edit/{{id}}"><i class="far fa-edit"></i></a></td>
+                <td><a href="/products/delete/{{id}}"><i class="far fa-trash-alt"></a></i></td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</div>

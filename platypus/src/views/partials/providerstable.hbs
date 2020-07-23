@@ -1,0 +1,26 @@
+<div class="table-responsive">
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Proveedor</th>
+                <th scope="col">Telefono</th>
+                <th scope="col">Dirección</th>
+                <th scope="col">Notas</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each providers}}
+            <tr>
+                <td>{{name}}</td>
+                <td>{{phone}}</td>
+                <td>{{address}}</td>
+                <td>{{comments}}</td>
+                <td><a href="/providers/edit/{{id}}"><i class="far fa-edit"></i></a></td>
+                <td><a href="/providers/delete/{{id}}"><i class="far fa-trash-alt"></a></i></td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</div>
